@@ -50,3 +50,96 @@ their rank.
    java -jar TheGameOfDice.jar 3 10
    
 3. Game starts now!
+
+
+#### Sample Output :
+```
+Players List  - [Player-1, Player-2, Player-3]
+Welcome to Game of Dice!!!
+-----------------------------------------------------------------------------
+Points to  Win the game  - 10
+Order of players to Play the game - [Player-2, Player-3, Player-1]
+Game starts now....3...2...1...Go
+-----------------------------------------------------------------------------
+Player-2 its your turn,  (Press ‘r’ to roll the dice) 
+r
+Points achieved by - Player-2 is 6
+Lucky roll...!
+-----------------------------------------------------------------------------
+Players      Score     Rank       Completed Game
+-----------------------------------------------------------------------------
+Player-2     6          1           false
+-----------------------------------------------------------------------------
+Player-2 its your turn,  (Press ‘r’ to roll the dice) 
+r
+Points achieved by - Player-2 is 4
+Congrats Player-2 Completes the Game!!!
+-----------------------------------------------------------------------------
+Players      Score     Rank       Completed Game
+-----------------------------------------------------------------------------
+Player-2    10          1            true
+-----------------------------------------------------------------------------
+Player-3 its your turn,  (Press ‘r’ to roll the dice) 
+r
+Points achieved by - Player-3 is 1
+-----------------------------------------------------------------------------
+Players      Score     Rank       Completed Game
+-----------------------------------------------------------------------------
+Player-3     1          2           false
+Player-2    10          1            true
+-----------------------------------------------------------------------------
+Player-1 its your turn,  (Press ‘r’ to roll the dice) 
+r
+Points achieved by - Player-1 is 6
+Lucky roll...!
+-----------------------------------------------------------------------------
+Players      Score     Rank       Completed Game
+-----------------------------------------------------------------------------
+Player-1     6          2           false
+Player-3     1          3           false
+Player-2    10          1            true
+-----------------------------------------------------------------------------
+Player-1 its your turn,  (Press ‘r’ to roll the dice) 
+r
+Points achieved by - Player-1 is 4
+Congrats Player-1 Completes the Game!!!
+-----------------------------------------------------------------------------
+Players      Score     Rank       Completed Game
+-----------------------------------------------------------------------------
+Player-1    10          2            true
+Player-3     1          3           false
+Player-2    10          1            true
+-----------------------------------------------------------------------------
+Player-3 its your turn,  (Press ‘r’ to roll the dice) 
+r
+Points achieved by - Player-3 is 4
+-----------------------------------------------------------------------------
+Players      Score     Rank       Completed Game
+-----------------------------------------------------------------------------
+Player-1    10          2            true
+Player-3     5          3           false
+Player-2    10          1            true
+-----------------------------------------------------------------------------
+Player-3 its your turn,  (Press ‘r’ to roll the dice) 
+r
+Points achieved by - Player-3 is 3
+-----------------------------------------------------------------------------
+Players      Score     Rank       Completed Game
+-----------------------------------------------------------------------------
+Player-1    10          2            true
+Player-3     8          3           false
+Player-2    10          1            true
+-----------------------------------------------------------------------------
+Player-3 its your turn,  (Press ‘r’ to roll the dice) 
+r
+Points achieved by - Player-3 is 6
+Congrats Player-3 Completes the Game!!!
+Game Over
+-----------------------------------------------------------------------------
+Players      Score     Rank       Completed Game
+-----------------------------------------------------------------------------
+Player-1    10          2            true
+Player-3    14          3            true
+Player-2    10          1            true
+-----------------------------------------------------------------------------
+```
